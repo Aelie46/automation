@@ -1,0 +1,4 @@
+tc01:
+  browser: chrome
+  url: https://training-platform.doppio-tech.com/register
+  password: Test123*
