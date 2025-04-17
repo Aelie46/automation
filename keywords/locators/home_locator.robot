@@ -1,0 +1,5 @@
+*** Variables ***
+${home_locator.click_user_icon}    css=span.anticon-user.icon-size
+${home_locator.input_search_keyword}    xpath=//input[@placeholder='input search text']
+${home_locator.click_search}    xpath=//button[contains(@class, 'ant-input-search-button')]
+${home_locator.search_item}    xpath=//div[@class='ant-card-meta-title' and text()='Doppee phone']

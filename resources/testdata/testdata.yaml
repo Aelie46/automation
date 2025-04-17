@@ -1,0 +1,18 @@
+global:
+  browser: chrome
+  url: https://training-platform.doppio-tech.com
+  password: Test123*
+
+delivery:
+  surname: Wonderland
+  address: 123 Magic Street
+  phone: 0812345678
+
+home:
+  search_keyword: phone
+
+paymentDetail:
+  card_number: 4111111111111111
+  card_exp: 12/2030
+  card_cvc: 123
+  card_owner: Alice Wonderland
