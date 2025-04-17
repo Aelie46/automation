@@ -1,7 +1,7 @@
 *** Settings ***
-Resource    ../pages/import.robot
+#Resource    ../import.robot
 
 *** Keywords ***
 Search
-    home.Input search keyword
-    home.Click search
+    home_page.Input search keyword
+    home_page.Click search

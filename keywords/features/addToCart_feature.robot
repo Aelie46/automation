@@ -1,9 +1,9 @@
 *** Settings ***
-Resource    ../pages/import.robot
+#Resource    ../import.robot
 
 *** Keywords ***
 addToCart
-    home.Select item
-    item.Click add to cart
-    item.Click add product successfully popup
-    item.Click cart icon
+    home_page.Select item
+    item_page.Click add to cart
+    item_page.Click add product successfully popup
+    item_page.Click cart icon

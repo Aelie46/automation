@@ -1,8 +1,9 @@
 *** Settings ***
-Resource    ../pages/import.robot
+#Resource    ../import.robot
 
 *** Keywords ***
 checkOrder
-    home.Click user icon
-    account.Click Pending Payment
-    account.Count order row
+    home_page.Click user icon
+    ${order_id}=    Get order id
+    account_page.Wait for pending payment
+    account_page.Check order number    ${order_id}

@@ -1,8 +1,8 @@
 *** Settings ***
-Resource    ../pages/import.robot
+#Resource    ../import.robot
 
 *** Keywords ***
 logout
-    home.Click user icon
-    account.Click logout
-    home.Click user icon
+    home_page.Click user icon
+    account_page.Click logout
+    home_page.Click user icon

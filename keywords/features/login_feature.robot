@@ -1,10 +1,10 @@
 *** Settings ***
-Resource    ../pages/import.robot
+#Resource    ../import.robot
 
 *** Keywords ***
 login
     [Arguments]    ${EMAIL}
-    login.Input email    ${EMAIL}
-    login.Input password
-    login.Click login button
-    login.Click login successfully popup
+    login_page.Input email    ${EMAIL}
+    login_page.Input password
+    login_page.Click login button
+    login_page.Click login successfully popup

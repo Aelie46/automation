@@ -1,12 +1,12 @@
 *** Settings ***
-Resource    ../pages/import.robot
+#Resource    ../import.robot
 
 *** Keywords ***
 delivery
     [Arguments]    ${EMAIL}
-    delivery.Input name
-    delivery.Input surname
-    delivery.Input address
-    delivery.Input phone
-    delivery.Input email    ${EMAIL}
-    delivery.Click pay
+    delivery_page.Input name
+    delivery_page.Input surname
+    delivery_page.Input address
+    delivery_page.Input phone
+    delivery_page.Input email    ${EMAIL}
+    delivery_page.Click pay

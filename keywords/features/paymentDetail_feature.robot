@@ -1,11 +1,11 @@
 *** Settings ***
-Resource    ../pages/import.robot
+#Resource    ../import.robot
 
 *** Keywords ***
 paymentDetail
-    Input card number
-    Input card exp
-    Input card cvc
-    Input card owner
-    Click confirm
-    Click payment successfully popup
+    paymentDetail_page.Input card number
+    paymentDetail_page.Input card exp
+    paymentDetail_page.Input card cvc
+    paymentDetail_page.Input card owner
+    paymentDetail_page.Click confirm
+    paymentDetail_page.Click payment successfully popup

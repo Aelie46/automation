@@ -1,11 +1,13 @@
 *** Settings ***
-Resource    ../pages/import.robot
+#Resource    ../import.robot
 
 *** Keywords ***
 Register
     [Arguments]    ${EMAIL}
-    register.Input username    ${EMAIL}
-    register.Input password
-    register.Confirm password
-    register.Click signup button
-    register.Click signup successfully popup
+    home_page.Click user icon
+    login_page.Click signup button
+    register_page.Input username    ${EMAIL}
+    register_page.Input password
+    register_page.Confirm password
+    register_page.Click signup button
+    register_page.Click signup successfully popup
