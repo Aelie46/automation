@@ -3,5 +3,6 @@
 
 *** Keywords ***
 Search
-    home_page.Input search keyword
+    [Arguments]    ${SEARCH_KEYWORD}
+    home_page.Input search keyword    ${SEARCH_KEYWORD}
     home_page.Click search

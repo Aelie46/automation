@@ -16,3 +16,9 @@ paymentDetail:
   card_exp: 12/2030
   card_cvc: 123
   card_owner: Alice Wonderland
+
+productInfo:
+  amount: 19 ชิ้น
+  description: good
+  discount: 20 THB discount
+

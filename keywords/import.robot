@@ -26,6 +26,7 @@ Resource    ./features/addToCart_feature.robot
 Resource    ./features/delivery_feature.robot
 Resource    ./features/paymentDetail_feature.robot
 Resource    ./features/checkOrder_feature.robot
+Resource    ./features/checkProductInfo_feature.robot
 
 Resource    ./locators/home_locator.robot
 Resource    ./locators/account_locator.robot
