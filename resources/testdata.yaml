@@ -1,0 +1,36 @@
+browser: chrome
+url: https://sit.doppio-tech.com/login
+username: perapat@gmail.com
+password: Perapat123*
+
+product: perapatproduction
+priority: High
+complexity: High
+automation_status: Not automated
+
+tags_list:
+  - bambootag3
+  - pandaperapat2
+
+status: Ready to Be Reviewed
+status_type: Active
+
+file_path: C:/Users/UNS_CT/OneDrive/รูปภาพ/dance.jpg
+
+product_name: product01
+
+project:
+  product01: perapatproduction
+  product02: bambooproduct
+
+chat:
+  username: nimble.ai@doppiotech.com
+  password: Admin123$
+
+assistant_name: Test Nimble
+
+Test and Edge Case Generation_response message: Upload files or drag pictures that you would like me to analyze to this conversation
+
+file_path: C:/Users/UNS_CT/Downloads/single_create.json
+
+run_status: PASSED
